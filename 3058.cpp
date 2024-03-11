@@ -1,5 +1,8 @@
 #include <bits/stdc++.h>
 
+#define MAX 101
+#define SIZE 7
+
 using namespace std;
 
 int main(){
@@ -7,8 +10,8 @@ int main(){
     cin >> T;
 
     while(T--){
-        even_min=101, even_sum=0;
-        for(i=0; i<7; i++){
+        even_min=MAX, even_sum=0;
+        for(i=0; i<SIZE; i++){
             cin >> input;
             if(input%2==0){
                 if(even_min > input){
