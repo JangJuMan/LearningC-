@@ -58,7 +58,7 @@ string solution(string video_len, string pos, string op_start, string op_end, ve
     else{
         pos_S = to_string(int_pos_S);
     }
-    
+     
     answer = pos_M + ":" + pos_S;
     
     return answer;
