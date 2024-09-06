@@ -21,7 +21,7 @@ string solution(string video_len, string pos, string op_start, string op_end, ve
     for(string cmd : commands){
         if((int_op_start <= int_pos) && (int_pos <= int_op_end)){
             int_pos = int_op_end;
-        }
+        } 
         
         if(cmd == "prev"){
             int_pos -= 10;
