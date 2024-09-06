@@ -1,4 +1,4 @@
-// 보라매 테스트 5
+// 보라매 테스트 6
 // 문제 : https://school.programmers.co.kr/learn/courses/30/lessons/340213
 #include <iostream>
 #include <string>
