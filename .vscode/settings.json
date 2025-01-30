@@ -8,7 +8,13 @@
         "initializer_list": "cpp",
         "utility": "cpp",
         "string": "cpp",
-        "vector": "cpp"
+        "vector": "cpp",
+        "deque": "cpp",
+        "forward_list": "cpp",
+        "list": "cpp",
+        "unordered_map": "cpp",
+        "unordered_set": "cpp",
+        "regex": "cpp"
     },
     "C_Cpp.errorSquiggles": "disabled"
 }
