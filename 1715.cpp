@@ -6,15 +6,8 @@
 
 using namespace std;
 
-struct cmp{
-    bool operator()(int a, int b){
-        return a > b;
-    }
-};
-
 int N, input, ans;
-// priority_queue<int, vector<int>, greater<int>> pq;
-priority_queue<int, vector<int>, cmp> pq;
+priority_queue<int, vector<int>, greater<int>> pq;
 
 int main(){
     scanf("%d", &N);
